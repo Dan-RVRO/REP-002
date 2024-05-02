@@ -1,12 +1,20 @@
 {
   "name": "rep-002",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sum": "node functionsJavascript/sum.js",
+    "factorial":"node functionsJavascript/factorial.js",
+    "ordenarAscendente":"node functionsJavascript/ordenarAscendente",
+    "wordCounter":"node functionsJavascript/wordCounter.js",
+    "circleArea":"node functionsJavascript/circleArea.js",
+    "evenNumbersFilter":"node functionsJavascript/evenNumbersFilter.js",
+    "palindrome":"node functionsJavascript/palindrome.js",
+    "taxesCalculator":"node functionsJavascript/taxesCalculator.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

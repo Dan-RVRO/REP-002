@@ -1,0 +1,12 @@
+function ordenarAscendente(array) {
+    return array.sort((a, b) => a - b);
+}
+
+let numerosDesordenados = [5, 2, 9, 1, 3, 3, 5, 7, 8, 6, 4, 10];
+console.log(`El orden ascendente de ${process.argv[2]} es:`, ordenarAscendente(numerosDesordenados));
+
+/* Trought Input
+console.log(process.argv);
+console.log(`El orden ascendente de ${process.argv[2]} es:`, ordenarAscendente(parseInt(process.argv[2])));
+*/
+console.log("--------------------------------------")
